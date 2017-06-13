@@ -1,0 +1,42 @@
+
+@import 'https://fonts.googleapis.com/css?family=Rubik';
+
+html,
+body {
+	background: #2b2b2b;
+	margin: 0;
+	color: #fff;
+	font-family: 'Rubik', sans-serif;
+}
+
+.fa{
+	color:#fff;
+}
+
+a{
+color:#f8d07d;
+}
+
+a:hover, .fa:hover{
+	color:rgb(116, 175, 173);
+}
+
+.inner {
+	background: rgba(116, 175, 173, 0.2);
+	color: #fff;
+	display: inline-block;
+	padding: 3em;
+	text-align: center;
+	width: 300px;
+	padding: 20px;
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	margin: -70px 0 0 -170px;
+	border-radius: 10px;
+}
+
+.hide{
+  display: none;
+}
+
